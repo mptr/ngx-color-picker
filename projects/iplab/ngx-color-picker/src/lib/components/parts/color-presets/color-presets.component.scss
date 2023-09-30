@@ -1,14 +1,8 @@
 :host {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 0;
-
-    .presets-row {
-        display: flex;
-    }
-
-    .presets-row:first-child {
-        padding: 0;
-    }
+    gap: 8px;
 }
 
 color-preset-sublist:first-child,

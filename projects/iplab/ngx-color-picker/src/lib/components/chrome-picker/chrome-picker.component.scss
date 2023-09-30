@@ -19,16 +19,6 @@
             box-shadow: inset rgba(0, 0, 0, 0.3) 0px 0px 2px;
         }
 
-        color-preset,
-        color-preset-sublist {
-            margin: 0 0 0 12px;
-        }
-
-        color-preset:first-child,
-        color-preset-sublist:first-child {
-            margin: 0;
-        }
-
         .sublist color-preset:hover,
         .presets-row > color-preset:hover {
             transform: scale(1.18, 1.18);
